@@ -59,7 +59,9 @@ Sources that helped me throughout this process:
 
 - https://www.cs.toronto.edu/~kriz/cifar.html
 
-- https://learnopencv.com/understanding-convolutional-neural-networks-cnn/
+- https://www.deeplearningbook.org/contents/convnets.html (This Helped a lot)
+
+- https://learnopencv.com/understanding-convolutional-neural-networks-cnn/ (took the image off of this site)
 
 ## Acknowledgments
 Special thanks to Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton for their work in creating the CIFAR-10 dataset.
