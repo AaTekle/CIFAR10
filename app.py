@@ -24,6 +24,12 @@ st.markdown("""
 READ/NOTE: (If you want the yield the best results, upload images that are related to the CIFAR-10 Dataset (in other words, upload any images that relate to Airplanes, Automobiles, Birds, Cats, Deers, Dogs, Frogs, Horses, Ships, & Trucks!)
 """)
 
+st.markdown("""
+Special thanks to Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton for their work in creating the CIFAR-10 dataset.
+
+Citation: Krizhevsky, A., Nair, V., and Hinton, G. (2009). CIFAR-10 (Canadian Institute for Advanced Research).
+""")
+
 # Loads the CNN model trained on the CIFAR-10 dataset.
 model = load_model("model.h5")
 
