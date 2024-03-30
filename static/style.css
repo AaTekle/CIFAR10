@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 15px; /* Add padding around the edges */
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px; /* Limit the width of the container for better text readability */
+    width: 100%; /* Make sure it's responsive */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.container img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Auto margins on the sides centers the image */
+    max-width: 200px; /* Restrict image size */
+    max-height: 200px;
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Center the heading */
+}
+
+p {
+    font-size: 16px; /* Adjust font size for readability */
+    line-height: 1.6; /* Improve line spacing */
+    text-align: justify; /* Justify the text for a cleaner look */
+    margin-bottom: 20px; /* Add some space before the form */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items */
+}
+
+input[type="file"] {
+    width: 100%; /* Make the input take up the full container width */
+    margin-bottom: 20px; /* Add some space below */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Make the button text larger */
+    width: 50%; /* Set a specific width for the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    margin-top: 20px;
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px; /* Increase font size for better visibility */
+}
+
+img {
+    max-width: 200px; /* Restrict image size */
+    max-height: 200px;
+    margin-top: 20px; /* Add space above the image */
+}
+
+.github-icon {
+    position: fixed; /* Fixed position to keep it visible */
+    top: 20px; /* Distance from the top */
+    left: 50%; /* Center align */
+    transform: translateX(-50%); /* Adjust to exactly center the icon */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.github-icon a {
+    color: #333; /* GitHub icon color */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.github-icon i {
+    transition: color 0.3s; /* Smooth color transition for hover effect */
+}
+
+.github-icon a:hover i {
+    color: #000; /* Darker color on hover */
+}

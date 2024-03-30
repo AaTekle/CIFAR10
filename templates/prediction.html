@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction: {{ class_name }}</h1>
+        <p>This prediction is made using my CNN model trained on the CIFAR-10 dataset, which includes categories like airplane, automobile, bird, etc. To explore the model's capabilities, feel free to upload more images related to these categories.</p>
+        <!-- Optionally show the uploaded image -->
+        <img src="data:image/jpeg;base64,{{ image_data }}" alt="Uploaded Image" style="max-width: 200px; max-height: 200px;">
+        <a href="/">Try another image</a>
+    </div>
+
+    <div class="github-icon">
+        <a href="https://github.com/aatekle" target="_blank">
+            <i class="fab fa-github fa-6x"></i>
+        </a>
+    </div>
+    
+</body>
+</html>
