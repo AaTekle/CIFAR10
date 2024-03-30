@@ -52,6 +52,13 @@ If using the CIFAR-10 dataset, please cite:
 Krizhevsky, A., Nair, V., and Hinton, G. (2009). CIFAR-10 (Canadian Institute for Advanced Research).
 ```
 
+## Extra Sources
+Sources that helped me throughout this process:
+
+- https://www.cs.toronto.edu/~kriz/cifar.html
+
+- https://learnopencv.com/understanding-convolutional-neural-networks-cnn/
+
 ## Acknowledgments
 Special thanks to Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton for their work in creating the CIFAR-10 dataset.
 
