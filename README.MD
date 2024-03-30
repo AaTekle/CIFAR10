@@ -31,7 +31,7 @@ After several iterations, the model reached an accuracy of approximately 76% on 
 
 ## Web Application and Deployment
 
-The trained model was deployed as an interactive web application using Streamlit. This allowed users to upload images and receive predictions in real-time. The deployment process involved:
+The trained model was deployed as an interactive web application using Streamlit. This allows users to upload images and receive predictions in real-time. The deployment process involved:
 
 1. **Streamlit Setup**: The web app was scripted using Streamlit, highlighting its ease of transforming scripts into shareable apps.
 2. **Model Integration**: The trained model was integrated into the app, enabling direct interaction with users.
