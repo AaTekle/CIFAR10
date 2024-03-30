@@ -1,6 +1,10 @@
 # CIFAR-10 Image Classifier
 
 # Link: https://cifar10.streamlit.app/
+
+#Overview/Tutorial:
+
+
 ## Project Overview
 
 This project demonstrates the end-to-end development of a Convolutional Neural Network (CNN) for classifying images into one of the ten classes in the CIFAR-10 dataset. The initiative highlights the process of constructing/building a CNN model, training it to achieve notable accuracy, and deploying the model through a user-friendly web application (STREAMLIT). The relevant classes include airplanes, automobiles, birds, cats, deers, dogs, frogs, horses, ships, and trucks.
