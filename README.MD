@@ -63,6 +63,8 @@ Sources that helped me throughout this process:
 
 - https://learnopencv.com/understanding-convolutional-neural-networks-cnn/ (took the image off of this site)
 
+- https://www.tensorflow.org/tutorials/images/cnn (TensorFlow Template that helped)
+
 ## Acknowledgments
 Special thanks to Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton for their work in creating the CIFAR-10 dataset.
 
