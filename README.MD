@@ -54,10 +54,10 @@ If using the CIFAR-10 dataset, please cite:
 Krizhevsky, A., Nair, V., and Hinton, G. (2009). CIFAR-10 (Canadian Institute for Advanced Research).
 ```
 
-## Extra Sources
+## Helpful Sources
 Sources that helped me throughout this process:
 
-- https://www.cs.toronto.edu/~kriz/cifar.html
+- https://www.cs.toronto.edu/~kriz/cifar.html (CIFAR-10 Official Website)
 
 - https://www.deeplearningbook.org/contents/convnets.html (This Helped a lot)
 
