@@ -31,7 +31,7 @@ Citation: "Krizhevsky, A., Nair, V., and Hinton, G. (2009). CIFAR-10 (Canadian I
 """)
 
 # Loads the CNN model trained on the CIFAR-10 dataset.
-model = load_model("model.h5")
+model = load_model("my_model.h5")
 
 # A list defining the class names corresponding to the CIFAR-10 dataset's classes.
 class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
