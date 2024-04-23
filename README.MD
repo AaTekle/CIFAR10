@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classifier
+3# CIFAR-10 Image Classifier
 Creator: Aaron Tekle
 # Link: https://cifar10.streamlit.app/
 
@@ -27,15 +27,15 @@ The training process involved the following steps:
 3. **Optimization**: The Adam optimizer was chosen for its efficiency in updating the network weights.
 4. **Validation**: A portion of the dataset was reserved for validation to monitor the model's performance on unseen data.
 
-After several iterations, the model reached an accuracy of approximately 76% on the training dataset, underscoring its ability to generalize well to new data.
+Accuracy Improvement (Ongoing Process): The model has now reached an accuracy of approximately 82% on the training dataset, showing that the model is able to generalize well to new data.
 
 ## Web Application and Deployment
 
-The trained model was deployed as an interactive web application using Streamlit. This allows users to upload images and receive predictions in real-time. The deployment process involved:
+The trained model was deployed using Streamlit. Allowing users to upload images and receive predictions in real-time. The deployment process involved:
 
 1. **Streamlit Setup**: The web app was scripted using Streamlit, highlighting its ease of transforming scripts into shareable apps.
-2. **Model Integration**: The trained model was integrated into the app, enabling direct interaction with users.
-3. **Deployment**: The Streamlit app was deployed, making it accessible to users worldwide to upload images and test the model's performance.
+2. **Model Integration**: The trained model was integrated into the app.
+3. **Deployment**: The Streamlit app was deployed, making it accessible to users worldwide to upload images, testing the model's performance.
 
 ## Tools/Technologies used
 
