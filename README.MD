@@ -5,13 +5,13 @@ Creator: Aaron Tekle
 
 ## Project Overview
 
-This project demonstrates the end-to-end development of a Convolutional Neural Network (CNN) for classifying images into one of the ten classes in the CIFAR-10 dataset. The relevant classes include airplanes, automobiles, birds, cats, deers, dogs, frogs, horses, ships, and trucks.
+End-to-end development of a Convolutional Neural Network (CNN) for classifying images into one of the ten classes in the CIFAR-10 dataset. The relevant classes include airplanes, automobiles, birds, cats, deers, dogs, frogs, horses, ships, and trucks.
 
 ## Model Development and Training
 
 ### Creation
 
-This CNN model was designed with a focus on extracting and learning the most relevant features from the CIFAR-10 dataset's images. The architecture comprises several key components:
+CNN model was designed with a focus on extracting and learning the most relevant features from the CIFAR-10 dataset's images. The architecture comprises several key components:
 
 - **Convolutional Layers**: To automatically identify features within the images.
 - **Pooling Layers**: To reduce the dimensionality of the feature maps, thus simplifying the network.
