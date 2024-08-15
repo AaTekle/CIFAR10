@@ -1,7 +1,4 @@
 # CIFAR-10 Image Classifier
-Creator: Aaron Tekle
-# Link: https://cifar10.streamlit.app/
-
 
 ## Project Overview
 
