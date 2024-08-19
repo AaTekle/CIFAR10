@@ -28,11 +28,11 @@ Accuracy Improvement (Ongoing Process): The model has now reached an accuracy of
 
 ## Web Application and Deployment
 
-The trained model was deployed using Streamlit. Allowing users to upload images and receive predictions in real-time. The deployment process involved:
+The trained model was deployed using Streamlit. The deployment process involved:
 
-1. **Streamlit Setup**: The web app was scripted using Streamlit, highlighting its ease of transforming scripts into shareable apps.
+1. **Streamlit Setup**: The web app was scripted using Streamlit.
 2. **Model Integration**: The trained model was integrated into the app.
-3. **Deployment**: The Streamlit app was deployed, making it accessible to users worldwide to upload images, testing the model's performance.
+3. **Deployment**: The Streamlit app was deployed, making it accessible to users to upload images, testing the model's performance.
 
 ## Tools/Technologies used
 
