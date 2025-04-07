@@ -24,15 +24,14 @@ The training process involved the following steps:
 3. **Optimization**: The Adam optimizer was chosen for its efficiency in updating the network weights.
 4. **Validation**: A portion of the dataset was reserved for validation to monitor the model's performance on unseen data.
 
-Accuracy Improvement (Ongoing Process): The model has now reached an accuracy of approximately 82% on the training dataset, showing that the model is able to generalize well to new data.
+Accuracy Improvement (Ongoing Process): The model has now reached an accuracy of 82% on the training dataset, showing that the model is able to generalize well to new data.
 
 ## Web Application and Deployment
 
 The trained model was deployed using Streamlit. The deployment process involved:
 
 1. **Streamlit Setup**: The web app was scripted using Streamlit.
-2. **Model Integration**: The trained model was integrated into the app.
-3. **Deployment**: The Streamlit app was deployed, making it accessible to users to upload images, testing the model's performance.
+2. **Deployment**: The Streamlit app was deployed, making it accessible to anyone  to upload images into my model, testing the model's performance.
 
 ## Tools/Technologies used
 
